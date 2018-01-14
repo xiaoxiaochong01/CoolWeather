@@ -10,10 +10,30 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    /*flavorDimensions("qihoo","baidu")
+    productFlavors {
+        qihoo{
+            dimension "qihoo"
+            applicationId "com.example.coolweather.qihoo"
+        }
+        baidu{
+            dimension "baidu"
+            applicationId "com.example.coolweather.baidu"
+        }
+    }*/
+    signingConfigs{
+        config{
+            storeFile file(KEY_PATH)
+            storePassword KEY_PASS
+            keyAlias ALIAS_NAME
+            keyPassword ALIAS_PASS
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }
