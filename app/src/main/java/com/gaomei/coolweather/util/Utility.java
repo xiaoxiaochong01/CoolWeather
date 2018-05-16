@@ -1,11 +1,11 @@
-package com.example.coolweather.util;
+package com.gaomei.coolweather.util;
 
 import android.text.TextUtils;
 
-import com.example.coolweather.db.City;
-import com.example.coolweather.db.County;
-import com.example.coolweather.db.Province;
-import com.example.coolweather.gson.Weather;
+import com.gaomei.coolweather.db.City;
+import com.gaomei.coolweather.db.County;
+import com.gaomei.coolweather.db.Province;
+import com.gaomei.coolweather.gson.Weather;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;

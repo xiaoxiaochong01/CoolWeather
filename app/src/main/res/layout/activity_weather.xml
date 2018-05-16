@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.example.coolweather.WeatherActivity">
+    tools:context="com.gaomei.coolweather.WeatherActivity">
 
     <ImageView
         android:id="@+id/bing_pic_img"
@@ -55,7 +55,7 @@
 
         <fragment
             android:id="@+id/choose_area_fragment"
-            android:name="com.example.coolweather.ChooseAreaFragment"
+            android:name="com.gaomei.coolweather.ChooseAreaFragment"
             android:layout_gravity="start"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

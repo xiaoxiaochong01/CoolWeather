@@ -1,4 +1,4 @@
-package com.example.coolweather.gson;
+package com.gaomei.coolweather.gson;
 
 import com.google.gson.annotations.SerializedName;
 

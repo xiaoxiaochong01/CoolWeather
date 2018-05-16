@@ -1,4 +1,4 @@
-package com.example.coolweather.util;
+package com.gaomei.coolweather.util;
 
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;

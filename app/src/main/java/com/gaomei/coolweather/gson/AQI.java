@@ -1,4 +1,4 @@
-package com.example.coolweather.gson;
+package com.gaomei.coolweather.gson;
 
 /**
  * Created by gaomei on 2018/1/12.

@@ -1,4 +1,4 @@
-package com.example.coolweather.service;
+package com.gaomei.coolweather.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -9,9 +9,9 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 
-import com.example.coolweather.gson.Weather;
-import com.example.coolweather.util.HttpUtil;
-import com.example.coolweather.util.Utility;
+import com.gaomei.coolweather.gson.Weather;
+import com.gaomei.coolweather.util.HttpUtil;
+import com.gaomei.coolweather.util.Utility;
 
 import java.io.IOException;
 

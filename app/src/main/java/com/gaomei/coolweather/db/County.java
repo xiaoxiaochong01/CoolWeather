@@ -1,4 +1,4 @@
-package com.example.coolweather.db;
+package com.gaomei.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 

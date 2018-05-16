@@ -1,4 +1,4 @@
-package com.example.coolweather;
+package com.gaomei.coolweather;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
